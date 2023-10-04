@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class AverageAndSum
@@ -11,8 +11,8 @@ public class AverageAndSum
         int a = scanner.nextInt();                        //input for start number
         System.out.println("please enter end number: ");
         int b = scanner.nextInt();                      //input for end number
-        double sum = 0;                              //input for double value sum
-        double count = 0;                            //input for double valur count
+        int sum = 0;                              //input for double value sum
+        int count = 0;                            //input for double valur count
 
         for (int i = a; i<=b; i++)                     //using loop for finding average and sum between two entered numbers
         {

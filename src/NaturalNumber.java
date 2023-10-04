@@ -7,18 +7,17 @@ public class NaturalNumber
         //initializing input
         Scanner scanner = new Scanner(System.in);
         System.out.println("please enter number you want to sum from: ");
-        int i = scanner.nextInt();                     //input for the user to enter number
+        int a = scanner.nextInt();
+        //input for the user to enter number
         System.out.println("please enter number you want to sum up to: ");
         int number = scanner.nextInt();
         scanner.close();
         int sum=0;
 
-        for (i = 1; i <=number ; i++)                   //fining n number using loop
+        for (int i = a; i <=number ; i++)                   //fining n number using loop
         {
             sum = sum + i;                                       //adding i with the sum at each iteration
         }
         System.out.println("Sum = " + sum);
-
-
     }
 }
